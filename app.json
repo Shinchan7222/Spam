@@ -1,0 +1,58 @@
+{
+  "name": "spam",
+  "description": "nothing.",
+  "logo": "https://telegra.ph/file/35536f4349ec45ad3aff7.jpg",
+  "keywords": [
+    "telegram",
+    "fridaybot",
+    "plugin",
+    "fridaybot",
+    "productivity"
+  ],
+  "repository": "no",
+  "website": "no",
+  "success_url": "no",
+  "stack": "container",
+  "env": {
+    "API_ID": {
+      "description": "Get this value from my.telegram.org! Please do not steal",
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "Get this value from my.telegram.org! Please do not steal",
+      "value": ""
+    },
+    "BOT_TOKEN1": {
+      "description": "BOT TOKEN",
+      "value": ""
+    },
+    "BOT_TOKEN2": {
+      "description": "BOT TOKEN",
+      "value": ""
+    },
+    "BOT_TOKEN3": {
+      "description": "BOT TOKEN",
+      "value": ""
+    },
+    "BOT_TOKEN4": {
+      "description": "BOT TOKEN",
+      "value": ""
+    },
+    "BOT_TOKEN5": {
+      "description": "BOT TOKEN",
+      "value": ""
+    },
+    "BOT_TOKEN6": {
+      "description": "BOT TOKEN",
+      "value": ""
+    },
+    "BOT_TOKEN7": {
+      "description": "BOT TOKEN",
+      "value": ""
+    },
+    "BOT_TOKEN8": {
+      "description": "BOT TOKEN",
+      "value": ""
+    },
+  }
+}
