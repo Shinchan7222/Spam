@@ -20,12 +20,12 @@ app1.run()
 
 
 async def spam(client, message):
-
+     count = Config.TIME
+   count = int(count)
     if not count:
         await app1.send_message("`Please Give Me A Valid Input. You Can Check Help Menu To Know More!`")
         return 
-   count = Config.TIME
-   count = int(count)
+
     x = 0
     for x in range(count):
         await client.copy_message(
@@ -47,12 +47,13 @@ app2.run()
 
 
 async def spam(client, message):
+     count = Config.TIME
+   count = int(count)
 
     if not count:
         await app2.send_message("`Please Give Me A Valid Input. You Can Check Help Menu To Know More!`")
         return 
-   count = Config.TIME
-   count = int(count)
+
     x = 0
     for x in range(count):
         await client.copy_message(
@@ -74,12 +75,12 @@ app3.run()
 
 
 async def spam(client, message):
-
+     count = Config.TIME
+   count = int(count)
     if not count:
         await app3.send_message("`Please Give Me A Valid Input. You Can Check Help Menu To Know More!`")
         return 
-   count = Config.TIME
-   count = int(count)
+
     x = 0
     for x in range(count):
         await client.copy_message(
@@ -103,12 +104,12 @@ app4.run()
 
 
 async def spam(client, message):
-
+     count = Config.TIME
+   count = int(count)
     if not count:
         await app4.send_message("`Please Give Me A Valid Input. You Can Check Help Menu To Know More!`")
         return 
-   count = Config.TIME
-   count = int(count)
+
     x = 0
     for x in range(count):
         await client.copy_message(
@@ -128,12 +129,12 @@ app5.run()
 
 
 async def spam(client, message):
-
+     count = Config.TIME
+   count = int(count)
     if not count:
         await app5.send_message("`Please Give Me A Valid Input. You Can Check Help Menu To Know More!`")
         return 
-   count = Config.TIME
-   count = int(count)
+
     x = 0
     for x in range(count):
         await client.copy_message(
@@ -155,12 +156,12 @@ app6.run()
 
 
 async def spam(client, message):
-
+     count = Config.TIME
+   count = int(count)
     if not count:
         await app6.send_message("`Please Give Me A Valid Input. You Can Check Help Menu To Know More!`")
         return 
-   count = Config.TIME
-   count = int(count)
+
     x = 0
     for x in range(count):
         await client.copy_message(
@@ -181,12 +182,12 @@ app7.run()
 
 
 async def spam(client, message):
-
+     count = Config.TIME
+   count = int(count)
     if not count:
         await app7.send_message("`Please Give Me A Valid Input. You Can Check Help Menu To Know More!`")
         return 
-   count = Config.TIME
-   count = int(count)
+
     x = 0
     for x in range(count):
         await client.copy_message(
@@ -208,12 +209,11 @@ app8.run()
 
 
 async def spam(client, message):
-
+      count = Config.TIME
+   count = int(count)
     if not count:
         await app8.send_message("`Please Give Me A Valid Input. You Can Check Help Menu To Know More!`")
         return 
-   count = Config.TIME
-   count = int(count)
     x = 0
     for x in range(count):
         await client.copy_message(
