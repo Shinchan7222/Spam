@@ -24,4 +24,4 @@ async def main():
 
 
 with bot:
-    client.loop.run_until_complete(main())
+    bot.loop.run_until_complete(main())
