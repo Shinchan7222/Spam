@@ -9,9 +9,9 @@
     "fridaybot",
     "productivity"
   ],
-  "repository": "no",
-  "website": "no",
-  "success_url": "no",
+  "repository": "www.github.com/RYNO-X/Spam",
+  "website": "www.github.com/RYNO-X/Spam",
+  "success_url": "www.github.com/RYNO-X/Spam",
   "stack": "container",
   "env": {
     "API_ID": {
@@ -54,5 +54,17 @@
       "description": "BOT TOKEN",
       "value": ""
     },
+     "CHAT_ID": {
+      "description": "CHAT ID WHERE YOU WANT TO SPAM",
+      "value": ""
+    },
+     "MESSAGE": {
+      "description": "MESSAGE TO SPAM",
+      "value": ""
+    },
+     "TIME": {
+      "description": "NUMBER OF TIME TO SPAM",
+      "value": ""
+    }
   }
 }
