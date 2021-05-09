@@ -2,7 +2,7 @@ import logging
 import os
 import platform
 
-from config import Config
+import Config
 
 
 from telethon.sync import TelegramClient
