@@ -20,7 +20,7 @@ app1.run()
 
 
 async def spam(client, message):
-with app:
+with app1:
     if not count:
         await app1.send_message("`Please Give Me A Valid Input. You Can Check Help Menu To Know More!`")
         return 
@@ -47,7 +47,7 @@ app2.run()
 
 
 async def spam(client, message):
-with app:
+with app2:
     if not count:
         await app2.send_message("`Please Give Me A Valid Input. You Can Check Help Menu To Know More!`")
         return 
@@ -74,7 +74,7 @@ app3.run()
 
 
 async def spam(client, message):
-with app:
+with app3:
     if not count:
         await app3.send_message("`Please Give Me A Valid Input. You Can Check Help Menu To Know More!`")
         return 
@@ -103,7 +103,7 @@ app4.run()
 
 
 async def spam(client, message):
-with app:
+with app4:
     if not count:
         await app4.send_message("`Please Give Me A Valid Input. You Can Check Help Menu To Know More!`")
         return 
@@ -128,7 +128,7 @@ app5.run()
 
 
 async def spam(client, message):
-with app:
+with app5:
     if not count:
         await app5.send_message("`Please Give Me A Valid Input. You Can Check Help Menu To Know More!`")
         return 
@@ -155,7 +155,7 @@ app6.run()
 
 
 async def spam(client, message):
-with app:
+with app6:
     if not count:
         await app6.send_message("`Please Give Me A Valid Input. You Can Check Help Menu To Know More!`")
         return 
@@ -181,7 +181,7 @@ app7.run()
 
 
 async def spam(client, message):
-with app:
+with app7:
     if not count:
         await app7.send_message("`Please Give Me A Valid Input. You Can Check Help Menu To Know More!`")
         return 
@@ -208,7 +208,7 @@ app8.run()
 
 
 async def spam(client, message):
-with app:
+with app8:
     if not count:
         await app8.send_message("`Please Give Me A Valid Input. You Can Check Help Menu To Know More!`")
         return 
