@@ -74,7 +74,7 @@ bot_token = Config.BOT_TOKEN8
 
 bot8 = TelegramClient('bot8', api_id, api_hash).start(bot_token=bot_token)
 
-hunter = [bot1, bot2, bot3, bot4, bot5, bot6, bot7, bot8]
+Hunter = [bot1, bot2, bot3, bot4, bot5, bot6, bot7, bot8]
 
 async def main1(): 
    for op in Hunter:
