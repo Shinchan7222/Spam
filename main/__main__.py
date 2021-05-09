@@ -87,7 +87,7 @@ async def main1():
             await op.send_message(chat, spam_message ,)
 
 
-with op[0]:
+while op[0]:
 
      Hunter[0].loop.run_until_complete(main1())
 
