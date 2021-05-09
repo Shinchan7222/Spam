@@ -2,7 +2,7 @@ import logging
 import os
 import platform
 
-from Config.config import Config
+from config import Config
 
 
 from telethon.sync import TelegramClient
@@ -17,6 +17,7 @@ async def main():
 
         message = Config.MESSAGE
         chat = Config.CHAT_ID
+        chat = int(Config.CHAT_ID)
         counter = int(Config.TIME)
         spam_message = str(Config.MESSAGE)
         for i in range(1, counter):
