@@ -84,11 +84,11 @@ async def main1():
         counter = int(Config.TIME)
         spam_message = str(Config.MESSAGE)
         for i in range(1, counter):
-            await hunter.send_message(chat, spam_message ,)
+            await hunter[0:].send_message(chat, spam_message ,)
 
 
  
-with hunter:
-    hunter.loop.run_until_complete(main1())
+with hunter[0:]:
+    hunter[0:].loop.run_until_complete(main1())
 
 
