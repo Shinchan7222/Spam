@@ -106,7 +106,7 @@ async def main4():
 
 
 with bot4:
-    bot4.loop.run_until_complete(main4())<
+    bot4.loop.run_until_complete(main4())
 
 
 
