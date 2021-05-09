@@ -83,7 +83,7 @@ Hunter = [bot1, bot2, bot3, bot4, bot5, bot6, bot7, bot8]
  
 
 
-def main1(): 
+async def main1(): 
 
    for client in Hunter:
 
