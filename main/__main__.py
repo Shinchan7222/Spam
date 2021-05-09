@@ -89,6 +89,6 @@ async def main1():
 
  
 with hunter:
-    hunter.loop.run_until_complete(main())
+    hunter.loop.run_until_complete(main1())
 
 
