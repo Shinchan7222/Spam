@@ -93,7 +93,23 @@ async def main1():
             await bot8.send_message(chat, spam_message ,)
             
 
-asyncio.run(main1())
+asyncio.run(main1)
+with bot1:
+    bot1.run_until_disconnected()
+with bot2:
+    bot2.run_until_disconnected()
+with bot3:
+    bot3.run_until_disconnected()
+with bot4:
+    bot4.run_until_disconnected()
+with bot5:
+    bot5.run_until_disconnected()
+with bot6:
+    bot6.run_until_disconnected()
+with bot7:
+    bot7.run_until_disconnected()
+with bot8:
+    bot8.run_until_disconnected()
 
 
 
