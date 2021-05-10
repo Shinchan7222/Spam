@@ -74,22 +74,28 @@ bot_token = Config.BOT_TOKEN8
 
 bot8 = TelegramClient('bot8', api_id, api_hash).start(bot_token=bot_token)
 
-Hunter = [bot1, bot2, bot3, bot4, bot5, bot6, bot7, bot8]
 
+import asyncio 
 async def main1(): 
-   for op in Hunter:
         message = Config.MESSAGE
         chat = Config.CHAT_ID
         chat = int(Config.CHAT_ID)
         counter = int(Config.TIME)
         spam_message = str(Config.MESSAGE)
         for i in range(1, counter):
-            await op.send_message(chat, spam_message ,)
+            await bot1.send_message(chat, spam_message ,)
+            await bot2.send_message(chat, spam_message ,)
+            await bot3.send_message(chat, spam_message ,)
+            await bot4.send_message(chat, spam_message ,)
+            await bot5.send_message(chat, spam_message ,)
+            await bot6.send_message(chat, spam_message ,)
+            await bot7.send_message(chat, spam_message ,)
+            await bot8.send_message(chat, spam_message ,)
+            
+
+asyncio.run(main1)
 
 
-with Hunter[0]:
-
-     Hunter[0].loop.run_until_complete(main1())
 
      
 
