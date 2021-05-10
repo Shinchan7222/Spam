@@ -93,7 +93,7 @@ async def main1():
             await bot8.send_message(chat, spam_message ,)
             
 
-asyncio.run(main1)
+asyncio.run(main1())
 
 
 
