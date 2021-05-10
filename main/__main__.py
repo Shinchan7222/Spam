@@ -77,19 +77,19 @@ bot8 = TelegramClient('bot8', api_id, api_hash).start(bot_token=bot_token)
 i = 1
 while i<10:
     async def main1(): 
-    message = Config.MESSAGE
-    chat = Config.CHAT_ID
-    chat = int(Config.CHAT_ID)
-    spam_message = str(Config.MESSAGE)
+        message = Config.MESSAGE
+        chat = Config.CHAT_ID
+        chat = int(Config.CHAT_ID)
+        spam_message = str(Config.MESSAGE)
     
-            await bot1.send_message(chat, spam_message ,)
-            await bot2.send_message(chat, spam_message ,)
-            await bot3.send_message(chat, spam_message ,)
-            await bot4.send_message(chat, spam_message ,)
-            await bot5.send_message(chat, spam_message ,)
-            await bot6.send_message(chat, spam_message ,)
-            await bot7.send_message(chat, spam_message ,)
-            await bot8.send_message(chat, spam_message ,)
+                await bot1.send_message(chat, spam_message ,)
+                await bot2.send_message(chat, spam_message ,)
+                await bot3.send_message(chat, spam_message ,)
+                await bot4.send_message(chat, spam_message ,)
+                await bot5.send_message(chat, spam_message ,)
+                await bot6.send_message(chat, spam_message ,)
+                await bot7.send_message(chat, spam_message ,)
+                await bot8.send_message(chat, spam_message ,)
             
 with bot1:
     bot1.loop.run_until_complete(main1())
