@@ -80,14 +80,14 @@ while i<10:
         chat = Config.CHAT_ID
         chat = int(Config.CHAT_ID)
         spam_message = str(Config.MESSAGE)
-            await bot1.send_message(chat, spam_message ,)
-            await bot2.send_message(chat, spam_message ,)
-            await bot3.send_message(chat, spam_message ,)
-            await bot4.send_message(chat, spam_message ,)
-            await bot5.send_message(chat, spam_message ,)
-            await bot6.send_message(chat, spam_message ,)
-            await bot7.send_message(chat, spam_message ,)
-            await bot8.send_message(chat, spam_message ,)
+            await bot1.send_message(chat, spam_message)
+            await bot2.send_message(chat, spam_message)
+            await bot3.send_message(chat, spam_message)
+            await bot4.send_message(chat, spam_message)
+            await bot5.send_message(chat, spam_message)
+            await bot6.send_message(chat, spam_message)
+            await bot7.send_message(chat, spam_message)
+            await bot8.send_message(chat, spam_message)
             
 with bot1:
     bot1.run_until_disconnected()
