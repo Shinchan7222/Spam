@@ -76,7 +76,7 @@ bot8 = TelegramClient('bot8', api_id, api_hash).start(bot_token=bot_token)
 
 i = 1
 while i<10:
-async def main1(): 
+    async def main1(): 
     message = Config.MESSAGE
     chat = Config.CHAT_ID
     chat = int(Config.CHAT_ID)
